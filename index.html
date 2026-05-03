@@ -1,24 +1,84 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
  <meta charset="UTF-8">
- <meta name="viewport" content="width=device-width,intial-scale=1.0">
- <title> practice</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Document</title>
+ <link rel="stylesheet" href="style.css">
  <script>
-  function join()
+  function stp()
   {
-    var a= document.getElementById("First").value;
-    var b=document.getElementById("sec").value;
-    document.write("your name is:-" +a+""+b);
+
+  var a=document.getElementById("five").value;
+  var b=document.getElementById("sev").value;
+  var c=document.getElementById("ten").value;
+  var d=document.getElementById("twl").value;
+  var e=document.getElementById("four").value;
+  var f=document.getElementById("si").value;
+  var g=document.getElementById("ei");
+  g.innerHTML="<h3> generated address </h3>"+
+  "name:"+a+"<br>"+
+  "Mobile:"+b+"<br>"+
+   "Alt Mobile:" +c+"<br>"+
+  "Relation:" +d+"<br>"+
+  "Email:"+e+" <br>"+
+  "Address:"+f;
   }
+function sprint()
+{
+ window.print();
+}
+function are()
+{
+ var g=document.getElementById("ei");
+ g.style.fontWeight="bold";
+}
+
+function we()
+{
+ var g=document.getElementById("ei");
+ g.style.fontStyle="italic"
+}
+
+function as()
+{
+ var g=document.getElementById("ei");
+ g.style.fontWeight="normal";
+ g.style.fontStyle="normal";
+}
  </script>
- </head>
- <body>
-  <h1 align="center" > join by your name!</h1>
-  <hr>
-  First Name: <br>
-  <input type="text"  id="First"><br><br>
-  Last Name:<br>
-  <input type="text" id="sec"> <br><br>
-  <button onclick="join()"> Join your name </button>
+</head>
+<body>
+ <h1 align="center" id="two"> 
+  Address Maker 
+ </h1>
+ <h3 align="center" id="three"> An online address creator tool</h3>
+ <hr>
+
+ <br> <br> 
+ <h1 id="for"> Type Your Imformation Here!</h1>
+ <br><br><br>
+ <h2 id="six">Name:</h2>
+ <input type="text" id="five"><br> <br>
+ <h2 id="eight"> Mobile no.</h2>
+ <input type="number" id="sev"><br><br>
+ <h2 id="nine">Alternate Mobile no.</h2>
+ <input type="text" id="ten"><br><br>
+ <h2 id="ele"> S/O,W/O,D/O :</h2>
+ <input type="text" id="twl"><br><br>
+ <h2 id="thir"> Email</h2>
+ <input type="email" id="four"><br><br>
+ <h2 id="fif"> Address</h2>
+ <textarea id="si"></textarea>
+ <br><br>
+ <b><button id="sevn" onclick="stp()">Make</button></b><br><br>
+ <div id="ei"></div>
+ <div id="row">
+ 
+ <button id="sr" onclick="sprint()">Print</button>
+ <button id="rs" onclick="are()">Bold</button>
+ <button id="rs" onclick="we()">italic</button>
+ <button id="rs" onclick="as()" >Undo</button>
+ </div>
 </body>
 </html>
