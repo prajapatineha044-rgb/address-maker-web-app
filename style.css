@@ -1,0 +1,80 @@
+h1,h3
+{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-image: url(image/5.jpg);
+  background-size: cover;
+}
+#two{
+  font-size: 40px; 
+
+}
+#three
+{
+  line-height: 30px;
+}
+#for
+{
+  margin-left: 50px;
+  margin-top: 50px;
+}
+#five,#sev,#ten,#twl,#four
+{
+  width: 400px;
+  height: 25px;
+  margin-left: 50px;
+  line-height: 0;
+  box-shadow: 2px 2px 3px black;
+}
+#six,#eight,#nine,#ele,#thir,#fif
+{
+  margin-left: 50px;
+  line-height: 0;
+}
+#si
+{
+  width:370px;
+  height:200px;
+  margin-left: 50px;
+  box-shadow: 2px 2px 3px black;
+}
+#sevn
+{
+  padding: 15px;
+  margin-left: 360px;
+  background-color: gray;
+  color: white;
+}
+#ei
+{
+  width: 400px;
+  height:200px;
+  border: 3px solid black;
+  position: absolute;
+  top:200px;
+  left:900px
+
+}
+#row
+{
+  width:400px;
+  height: 40px;
+  border: 3px solid black;
+  position: absolute;
+  top:400px;
+  left:900px;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+#rs,#sr
+{
+  width:60px;
+  height: 30px;
+  margin-top: 5px;
+  background-color: beige;
+  
+}
